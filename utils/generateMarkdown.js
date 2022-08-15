@@ -63,12 +63,12 @@ ${data.title}
 ${data.description}
 
 # Table of Contents
-* [Installation](#-Installation)
-* [Usage](#-Usage)
-* [License](#-License)
-* [Contributing](#-Contributing)
-* [Tests](#-Tests)
-* [Questions](#-Contact-Information)
+* [Installation](#installation)
+* [Usage](#usage)
+${renderLicenseTOC(data)}
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 # Installation
 ${data.installation}
@@ -76,9 +76,9 @@ ${data.installation}
 # Usage
 ${data.usage}
 
-# License
+
 ${renderLicenseSection(data)}
-${renderLicenseTOC(data)}
+
 
 # Contributing 
 ${data.contributing}
@@ -86,7 +86,7 @@ ${data.contributing}
 # Tests
 ${data.tests}
 
-# Contact Information 
+# Questions 
 * GitHub Username: ${data.gitHub}
 * Contact Email: ${data.email}
 
