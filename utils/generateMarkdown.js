@@ -87,7 +87,7 @@ ${data.contributing}
 ${data.tests}
 
 # Questions 
-* GitHub Username: ${data.gitHub}
+* GitHub Username: https://github.com/${data.gitHub}
 * Contact Email: ${data.email}
 
 

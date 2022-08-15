@@ -1,9 +1,9 @@
 
 # Project Title
-f
+r
 
 # Description
-v
+fr
 
 # Table of Contents
 * [Installation](#installation)
@@ -14,7 +14,7 @@ v
 * [Questions](#questions)
 
 # Installation
-f
+
 
 # Usage
 f
@@ -27,10 +27,10 @@ f
 undefined
 
 # Tests
-f
+
 
 # Questions 
-* GitHub Username: f
+* GitHub Username: https://github.com/f
 * Contact Email: f
 
 
