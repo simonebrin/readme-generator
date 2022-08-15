@@ -15,14 +15,14 @@ function renderLicenseBadge(data) {
       "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       return licenseBadge;
   }
-  if (chosenLicense === "Boost"){
-    licenseBadge =
-      "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
-      return licenseBadge;
-  }
   if (chosenLicense === "BDS 3-Clause"){
     licenseBadge =
       "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+      return licenseBadge;
+  }
+  if (chosenLicense === "Mozilla"){
+    licenseBadge =
+      "[![License](https://img.shields.io/badge/License-Mozilla_2.0-orange.svg)](https://opensource.org/licenses/MPL-2.0)";
       return licenseBadge;
   }
 }
@@ -63,8 +63,32 @@ ${data.title}
 ${data.description}
 
 # Table of Contents
+* [Installation](#-Installation)
+* [Usage](#-Usage)
+* [License](#-License)
+* [Contributing](#-Contributing)
+* [Tests](#-Tests)
+* [Questions](#-Contact-Information)
+
+# Installation
+${data.installation}
+
+# Usage
+${data.usage}
+
+# License
 ${renderLicenseSection(data)}
 ${renderLicenseTOC(data)}
+
+# Contributing 
+${data.contributing}
+
+# Tests
+${data.tests}
+
+# Contact Information 
+* GitHub Username: ${data.gitHub}
+* Contact Email: ${data.email}
 
 
 `;

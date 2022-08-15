@@ -31,14 +31,19 @@ const questions = [
         message: "Who contributed to this project?"
     },
     {
+        type: "input",
+        name: "tests",
+        message: "Please enter any testing instructions you would like to provide for this project."
+    },
+    {
         type: "list",
         name: "license",
         message: "What license would you like to use?",
-        choices: ["None", "MIT", "Apache", "Boost", "BDS 3-Clause"]
+        choices: ["None", "MIT", "Apache", "BDS 3-Clause", "Mozilla"]
     },
     {
         type: "input",
-        name: "GitHub",
+        name: "gitHub",
         message: "What is your GitHub username?",
     },
     {
