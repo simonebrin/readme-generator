@@ -2,6 +2,9 @@
 
 # README.md Generator
 
+## Link to my recording: https://drive.google.com/file/d/1nPgK21w8YeX5Y0VhAJHOhAoLcyhwyDfm/view
+<img width="598" alt="Screen Shot 2022-08-16 at 12 19 08 PM" src="https://user-images.githubusercontent.com/106256478/184929363-7729c98b-dcb1-4585-a99e-68a88e43bf10.png">
+
 # Description
 This is a node.js application that creates a professional readme.md
 
