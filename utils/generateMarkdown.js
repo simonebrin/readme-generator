@@ -47,7 +47,9 @@ function renderLicenseSection(data) {
   if (chosenLicense === "None"){
     return ""
   } else {
-    return `# License
+    return `# License 
+This application is covered under the following license:
+\n
 ${renderLicenseBadge(data)}`
 
   }
@@ -76,7 +78,6 @@ ${data.installation}
 # Usage
 ${data.usage}
 
-
 ${renderLicenseSection(data)}
 
 
@@ -88,7 +89,8 @@ ${data.tests}
 
 # Questions 
 * GitHub Username: https://github.com/${data.gitHub}
-* Contact Email: ${data.email}
+* Please email the following address with any additional questions:
+${data.email}
 
 
 `;

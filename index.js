@@ -18,17 +18,17 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "What needs to be installed to run this project?"
+        message: "How does one install this project?"
     },    
     {
         type: "input",
         name: "usage",
-        message: "What steps do you take to run this project?"
+        message: "How is this project used?"
     },
     {
         type: "input",
         name: "contributors",
-        message: "Who contributed to this project?"
+        message: "How does someone make contributions to the project?"
     },
     {
         type: "input",
