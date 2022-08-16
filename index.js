@@ -27,7 +27,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "contributors",
+        name: "contributing",
         message: "How does someone make contributions to the project?"
     },
     {

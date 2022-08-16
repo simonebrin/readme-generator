@@ -3,7 +3,7 @@
 # README.md Generator
 
 # Description
-This is a Node.JS application that creates a professional README.md
+This is a node.js application that creates a professional readme.md
 
 # Table of Contents
 * [Installation](#installation)
@@ -17,7 +17,7 @@ This is a Node.JS application that creates a professional README.md
 You need to install the following dependencies: Inquirer
 
 # Usage
-Clone this repo, run "npm i" and then run "node index.js"
+To use, clone this repo, run "npm i" and then run "node index.js"
 
 # License 
 This application is covered under the following license:
@@ -27,7 +27,7 @@ This application is covered under the following license:
 
 
 # Contributing 
-undefined
+Fork this repo
 
 # Tests
 n/a
