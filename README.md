@@ -1,9 +1,9 @@
 
 
-# this it
+# README.md Generator
 
 # Description
-fh
+This is a Node.JS application that creates a professional README.md
 
 # Table of Contents
 * [Installation](#installation)
@@ -14,27 +14,27 @@ fh
 * [Questions](#questions)
 
 # Installation
-dc
+You need to install the following dependencies: Inquirer
 
 # Usage
-vdevv
+Clone this repo, run "npm i" and then run "node index.js"
 
 # License 
 This application is covered under the following license:
 
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Mozilla_2.0-orange.svg)](https://opensource.org/licenses/MPL-2.0)
 
 
 # Contributing 
 undefined
 
 # Tests
-dv
+n/a
 
 # Questions 
-* GitHub Username: https://github.com/dv
+* GitHub Username: https://github.com/simonebrin
 * Please email the following address with any additional questions:
-v
+simonebrin@gmail.com
 
 
